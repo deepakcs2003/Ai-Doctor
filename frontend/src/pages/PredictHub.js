@@ -68,29 +68,7 @@ const PredictHub = () => {
         </div>
       </div>
 
-      {/* Stats Bar */}
-      <div className="bg-white/60 backdrop-blur-md border-y border-blue-200/50 py-8 mb-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div className="flex items-center justify-center space-x-2">
-              <TrendingUp className="w-5 h-5 text-teal-600" />
-              <span className="text-slate-700 font-semibold">95% Accuracy</span>
-            </div>
-            <div className="flex items-center justify-center space-x-2">
-              <Shield className="w-5 h-5 text-blue-600" />
-              <span className="text-slate-700 font-semibold">Secure & Private</span>
-            </div>
-            <div className="flex items-center justify-center space-x-2">
-              <BarChart3 className="w-5 h-5 text-emerald-600" />
-              <span className="text-slate-700 font-semibold">Real-time Analysis</span>
-            </div>
-            <div className="flex items-center justify-center space-x-2">
-              <Brain className="w-5 h-5 text-indigo-600" />
-              <span className="text-slate-700 font-semibold">AI-Powered</span>
-            </div>
-          </div>
-        </div>
-      </div>
+     
 
       {/* Features Grid */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
